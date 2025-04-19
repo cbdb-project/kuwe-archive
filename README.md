@@ -4,4 +4,4 @@ The KUWE project is a joint initiative by the Harvard Digital China Initiative a
 
 ### Project URL
 
-https://shrouded-birth-09a.notion.site/GenAI-KUWE-4c654e6d811446588a8d401b85216c7d?pvs=74
+https://shrouded-birth-09a.notion.site/GenAI-KUWE-4c654e6d811446588a8d401b85216c7d
