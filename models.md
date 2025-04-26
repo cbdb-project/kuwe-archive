@@ -2,6 +2,12 @@
 
 ## Generative Large Language Models
 
+Qwen/Qwen2.5-Omni-7B
+
+https://huggingface.co/Qwen/Qwen2.5-Omni-7B
+
+Qwen2.5-Omni is an end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses in a streaming manner.
+
 microsoft/MAI-DS-R1
 
 https://huggingface.co/microsoft/MAI-DS-R1
