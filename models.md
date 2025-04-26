@@ -2,6 +2,14 @@
 
 ## Generative Large Language Models
 
+microsoft/MAI-DS-R1
+
+https://huggingface.co/microsoft/MAI-DS-R1
+
+MAI-DS-R1 is a DeepSeek-R1 reasoning model that has been post-trained by the Microsoft AI team to improve its responsiveness on blocked topics and its risk profile, while maintaining its reasoning capabilities and competitive performance.
+
+FREE DEMO: https://openrouter.ai/microsoft/mai-ds-r1:free
+
 THUDM/GLM-4-32B-0414
 
 https://huggingface.co/THUDM/GLM-4-32B-0414
