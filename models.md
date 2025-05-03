@@ -15,6 +15,32 @@ https://huggingface.co/microsoft/Phi-4-reasoning-plus
 
 At the high-level overview of the model quality on representative benchmarks. For the tables below, higher numbers indicate better performance:
 
+|  | **AIME 24** | **AIME 25** | **OmniMath** | **GPQA-D** | **LiveCodeBench (8/1/24–2/1/25)** |
+| --- | --- | --- | --- | --- | --- |
+| Phi-4-reasoning | 75.3 | 62.9 | 76.6 | 65.8 | 53.8 |
+| Phi-4-reasoning-plus | 81.3 | 78.0 | 81.9 | 68.9 | 53.1 |
+| OpenThinker2-32B | 58.0 | 58.0 | — | 64.1 | — |
+| QwQ 32B | 79.5 | 65.8 | — | 59.5 | 63.4 |
+| EXAONE-Deep-32B | 72.1 | 65.8 | — | 66.1 | 59.5 |
+| DeepSeek-R1-Distill-70B | 69.3 | 51.5 | 63.4 | 66.2 | 57.5 |
+| DeepSeek-R1 | 78.7 | 70.4 | 85.0 | 73.0 | 62.8 |
+| o1-mini | 63.6 | 54.8 | — | 60.0 | 53.8 |
+| o1 | 74.6 | 75.3 | 67.5 | 76.7 | 71.0 |
+| o3-mini | 88.0 | 78.0 | 74.6 | 77.7 | 69.5 |
+| Claude-3.7-Sonnet | 55.3 | 58.7 | 54.6 | 76.8 | — |
+| Gemini-2.5-Pro | 92.0 | 86.7 | 61.1 | 84.0 | 69.2 |
+
+|  | **Phi-4** | **Phi-4-reasoning** | **Phi-4-reasoning-plus** | **o3-mini** | **GPT-4o** |
+| --- | --- | --- | --- | --- | --- |
+| FlenQA [3K-token subset] | 82.0 | 97.7 | 97.9 | 96.8 | 90.8 |
+| IFEval Strict | 62.3 | 83.4 | 84.9 | 91.5 | 81.8 |
+| ArenaHard | 68.1 | 73.3 | 79.0 | 81.9 | 75.6 |
+| HumanEvalPlus | 83.5 | 92.9 | 92.3 | 94.0 | 88.0 |
+| MMLUPro | 71.5 | 74.3 | 76.0 | 79.4 | 73.0 |
+| KitabNo Context - PrecisionWith Context - PrecisionNo Context - RecallWith Context - Recall | 19.388.58.268.1 | 23.291.54.974.8 | 27.693.66.375.4 | 37.994.04.276.1 | 53.784.720.369.2 |
+| Toxigen DiscriminativeToxic categoryNeutral category | 72.690.0 | 86.784.7 | 77.390.5 | 85.488.7 | 87.685.1 |
+| PhiBench 2.21 | 58.2 | 70.6 | 74.2 | 78.0 | 72.4 |
+
 ### Qwen/Qwen3-32B
 
 https://huggingface.co/Qwen/Qwen3-32B
