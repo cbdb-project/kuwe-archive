@@ -2,6 +2,19 @@
 
 ## Generative Large Language Models
 
+### microsoft/Phi-4-reasoning-plus
+
+https://huggingface.co/microsoft/Phi-4-reasoning-plus
+
+| **Developers** | Microsoft Research |
+| --- | --- |
+| **Description** | Phi-4-reasoning-plus is a state-of-the-art open-weight reasoning model finetuned from Phi-4 using supervised fine-tuning on a dataset of chain-of-thought traces and reinforcement learning. The supervised fine-tuning dataset includes a blend of synthetic prompts and high-quality filtered data from public domain websites, focused on math, science, and coding skills as well as alignment data for safety and Responsible AI. The goal of this approach was to ensure that small capable models were trained with data focused on high quality and advanced reasoning. Phi-4-reasoning-plus has been trained additionally with Reinforcement Learning, hence, it has higher accuracy but generates on average 50% more tokens, thus having higher latency. |
+| **Architecture** | Base model same as previously released Phi-4, 14B parameters, dense decoder-only Transformer model |
+| **Inputs** | Text, best suited for prompts in the chat format |
+| **Context length** | 32k tokens |
+
+At the high-level overview of the model quality on representative benchmarks. For the tables below, higher numbers indicate better performance:
+
 ### Qwen/Qwen3-32B
 
 https://huggingface.co/Qwen/Qwen3-32B
