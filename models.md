@@ -2,7 +2,7 @@
 
 ## Generative Large Language Models
 
-Qwen/Qwen3-32B
+### Qwen/Qwen3-32B
 
 https://huggingface.co/Qwen/Qwen3-32B
 
@@ -14,13 +14,13 @@ Qwen3 is the latest generation of large language models in Qwen series, offering
 - **Expertise in agent capabilities**, enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks.
 - **Support of 100+ languages and dialects** with strong capabilities for **multilingual instruction following** and **translation**.
 
-Qwen/Qwen2.5-Omni-7B
+### Qwen/Qwen2.5-Omni-7B
 
 https://huggingface.co/Qwen/Qwen2.5-Omni-7B
 
 Qwen2.5-Omni is an end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses in a streaming manner.
 
-microsoft/MAI-DS-R1
+### microsoft/MAI-DS-R1
 
 https://huggingface.co/microsoft/MAI-DS-R1
 
@@ -28,13 +28,13 @@ MAI-DS-R1 is a DeepSeek-R1 reasoning model that has been post-trained by the Mic
 
 FREE DEMO: https://openrouter.ai/microsoft/mai-ds-r1:free
 
-THUDM/GLM-4-32B-0414
+### THUDM/GLM-4-32B-0414
 
 https://huggingface.co/THUDM/GLM-4-32B-0414
 
 The GLM family welcomes new members, the GLM-4-32B-0414 series models, featuring 32 billion parameters. Its performance is comparable to OpenAI’s GPT series and DeepSeek’s V3/R1 series. It also supports very user-friendly local deployment features. GLM-4-32B-Base-0414 was pre-trained on 15T of high-quality data, including substantial reasoning-type synthetic data. This lays the foundation for subsequent reinforcement learning extensions. In the post-training stage, we employed human preference alignment for dialogue scenarios. Additionally, using techniques like rejection sampling and reinforcement learning, we enhanced the model’s performance in instruction following, engineering code, and function calling, thus strengthening the atomic capabilities required for agent tasks. GLM-4-32B-0414 achieves good results in engineering code, Artifact generation, function calling, search-based Q&A, and report generation. In particular, on several benchmarks, such as code generation or specific Q&A tasks, GLM-4-32B-Base-0414 achieves comparable performance with those larger models like GPT-4o and DeepSeek-V3-0324 (671B).
 
-microsoft/bitnet-b1.58-2B-4T
+### microsoft/bitnet-b1.58-2B-4T
 
 https://huggingface.co/microsoft/bitnet-b1.58-2B-4T
 
@@ -42,7 +42,7 @@ This repository contains the weights for BitNet b1.58 2B4T, the first open-sourc
 
 Trained on a corpus of 4 trillion tokens, this model demonstrates that native 1-bit LLMs can achieve performance comparable to leading open-weight, full-precision models of similar size, while offering substantial advantages in computational efficiency (memory, energy, latency).
 
-meta-llama/Llama-4-Scout-17B-16E-Instruct
+### meta-llama/Llama-4-Scout-17B-16E-Instruct
 
 https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct
 
@@ -50,7 +50,7 @@ The Llama 4 collection of models are natively multimodal AI models that enable t
 
 These Llama 4 models mark the beginning of a new era for the Llama ecosystem. We are launching two efficient models in the Llama 4 series, Llama 4 Scout, a 17 billion parameter model with 16 experts, and Llama 4 Maverick, a 17 billion parameter model with 128 experts.
 
-microsoft/Phi-4-multimodal-instruct
+### microsoft/Phi-4-multimodal-instruct
 
 https://huggingface.co/microsoft/Phi-4-multimodal-instruct
 
@@ -60,13 +60,13 @@ Phi-4-multimodal-instruct is a lightweight open multimodal foundation model that
 - Vision: English
 - Audio: English, Chinese, German, French, Italian, Japanese, Spanish, Portuguese
 
-ds4sd/SmolDocling-256M-preview
+### ds4sd/SmolDocling-256M-preview
 
 https://huggingface.co/ds4sd/SmolDocling-256M-preview
 
 SmolDocling is a multimodal Image-Text-to-Text model designed for efficient document conversion. It retains Docling's most popular features while ensuring full compatibility with Docling through seamless support for DoclingDocuments.
 
-deepseek-ai/DeepSeek-V3-0324
+### deepseek-ai/DeepSeek-V3-0324
 
 https://huggingface.co/deepseek-ai/DeepSeek-V3-0324
 
@@ -77,7 +77,7 @@ GPQA: 59.1 → 68.4 (+9.3)
 AIME: 39.6 → 59.4 (+19.8)
 LiveCodeBench: 39.2 → 49.2 (+10.0)
 
-mistralai/Mistral-Small-3.1-24B-Instruct-2503
+### mistralai/Mistral-Small-3.1-24B-Instruct-2503
 
 https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503
 
@@ -94,13 +94,13 @@ Mistral Small 3.1 can be deployed locally and is exceptionally "knowledge-dense,
 | Claude 3.5 Haiku | 77.60% | 65.00% | 69.20% | 37.05% | 41.60% | **85.60%** | 88.10% | 8.02% |
 | Cohere Aya-Vision 32B | 72.14% | 47.16% | 41.98% | 34.38% | 33.84% | 70.43% | 62.20% | 7.65% |
 
-CohereForAI/c4ai-command-a-03-2025
+### CohereForAI/c4ai-command-a-03-2025
 
 https://huggingface.co/CohereForAI/c4ai-command-a-03-2025
 
 C4AI Command A is an open weights research release of a 111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI. Compared to other leading proprietary and open-weights models Command A delivers maximum performance with minimum hardware costs, excelling on business-critical agentic and multilingual tasks while‬ being deployable on just two GPUs.
 
-google/gemma-3-27b-pt
+### google/gemma-3-27b-pt
 
 https://huggingface.co/google/gemma-3-27b-pt
 
@@ -120,7 +120,7 @@ Gemma is a family of lightweight, state-of-the-art open models from Google, buil
 | [**BIG-Bench Hard**](https://paperswithcode.com/dataset/bbh) | few-shot | 28.4 | 50.9 | 72.6 | 77.7 |
 | [**DROP**](https://arxiv.org/abs/1903.00161) | 1-shot | 42.4 | 60.1 | 72.2 | 77.2 |
 
-microsoft/Phi-4-mini-instruct(3.8B)
+### microsoft/Phi-4-mini-instruct(3.8B)
 
 https://huggingface.co/microsoft/Phi-4-mini-instruct
 
@@ -160,13 +160,13 @@ We’ve developed Claude 3.7 Sonnet with a different philosophy from other reaso
 
 ![image.png](attachment:23f55435-5c0f-40c9-85d2-90ad16e6caa4:image.png)
 
-perplexity-ai/r1-1776
+### perplexity-ai/r1-1776
 
 https://huggingface.co/perplexity-ai/r1-1776
 
 R1 1776 is a DeepSeek-R1 reasoning model that has been post-trained by Perplexity AI to remove Chinese Communist Party censorship. The model provides unbiased, accurate, and factual information while maintaining high reasoning capabilities.
 
-mistralai/Mistral-Small-24B-Instruct-2501
+### mistralai/Mistral-Small-24B-Instruct-2501
 
 https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501
 
@@ -186,7 +186,7 @@ Mistral Small can be deployed locally and is exceptionally "knowledge-dense", fi
 | Other is slightly better | 0.060 | 0.088 | 0.112 | 0.124 |
 | Other is better | 0.156 | 0.172 | 0.296 | 0.312 |
 
-deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+### deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
 
 https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
 
@@ -209,7 +209,7 @@ Using the reasoning data generated by DeepSeek-R1, we fine-tuned several dense m
 | DeepSeek-R1-Distill-Llama-8B | 50.4 | 80.0 | 89.1 | 49.0 | 39.6 | 1205 |
 | DeepSeek-R1-Distill-Llama-70B | 70.0 | **86.7** | **94.5** | **65.2** | **57.5** | 1633 |
 
-MiniMaxAI/MiniMax-Text-01
+### MiniMaxAI/MiniMax-Text-01
 
 https://huggingface.co/MiniMaxAI/MiniMax-Text-01
 
@@ -217,7 +217,7 @@ MiniMax-Text-01 is a powerful language model with 456 billion total parameters, 
 
 ![](https://huggingface.co/MiniMaxAI/MiniMax-Text-01/resolve/main/figures/TextBench.png)
 
-kyutai/helium-1-preview-2b
+### kyutai/helium-1-preview-2b
 
 https://huggingface.co/kyutai/helium-1-preview-2b
 
@@ -242,7 +242,7 @@ Helium-1 Preview is a base model, which was not fine-tuned to follow instruction
 |  |  |  |  |  |  |
 | Average | 60.7 | 59.3 | 62.2 | 64.7 | 63.6 |
 
-internlm/internlm3-8b-instruct
+### internlm/internlm3-8b-instruct
 
 https://huggingface.co/internlm/internlm3-8b-instruct
 
@@ -270,7 +270,7 @@ InternLM3 has open-sourced an 8-billion parameter instruction model, InternLM3-8
 |  | WildBench(Raw Score) | **33.1** | 23.3 | 1.5 |
 |  | MT-Bench-101(Score 1-10) | **8.59** | 8.49 | 8.37 |
 
-microsoft/phi-4
+### microsoft/phi-4
 
 https://huggingface.co/microsoft/phi-4
 
@@ -287,7 +287,7 @@ phi-4 underwent a rigorous enhancement and alignment process, incorporating both
 | Factual Knowledge | SimpleQA | 3.0 | 7.6 | 5.4 | 9.9 | 20.9 | 10.2 | **39.4** |
 | Reasoning | DROP | 75.5 | 68.3 | 85.5 | 79.3 | **90.2** | 76.7 | 80.9 |
 
-deepseek-ai/DeepSeek-V3
+### deepseek-ai/DeepSeek-V3
 
 https://huggingface.co/deepseek-ai/DeepSeek-V3
 
@@ -295,7 +295,7 @@ We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 67
 
 ![](https://huggingface.co/deepseek-ai/DeepSeek-V3/resolve/main/figures/benchmark.png)
 
-answerdotai/ModernBERT-large
+### answerdotai/ModernBERT-large
 
 https://huggingface.co/answerdotai/ModernBERT-large
 
@@ -316,13 +316,13 @@ ModernBERT’s native long context length makes it ideal for tasks that require 
 | GTE-en-MLM | 42.5 | **36.4** | **48.9** | 50.7 | 71.3 | 87.6 | 40.5 | 66.9 |
 | ModernBERT | **44.0** | 34.3 | 48.6 | **52.4** | **80.4** | 90.4 | **59.5** | **83.9** |
 
-ibm-granite/granite-3.1-8b-instruct
+### ibm-granite/granite-3.1-8b-instruct
 
 https://huggingface.co/ibm-granite/granite-3.1-8b-instruct
 
 Granite-3.1-8B-Instruct is a 8B parameter long-context instruct model finetuned from Granite-3.1-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets tailored for solving long context problems. This model is developed using a diverse set of techniques with a structured chat format, including supervised finetuning, model alignment using reinforcement learning, and model merging.
 
-CohereForAI/c4ai-command-r7b-12-2024
+### CohereForAI/c4ai-command-r7b-12-2024
 
 https://huggingface.co/CohereForAI/c4ai-command-r7b-12-2024
 
@@ -338,13 +338,13 @@ C4AI Command R7B is an open weights research release of a 7B billion parameter m
 | MUSR | **11.6** | 9.74 | 10.7 |
 | MMLU-Pro | 28.5 | **32** | 25.5 |
 
-meta-llama/Llama-3.3-70B-Instruct
+### meta-llama/Llama-3.3-70B-Instruct
 
 https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
 
 The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model is optimized for multilingual dialogue use cases and outperform many of the available open source and closed chat models on common industry benchmarks.
 
-utter-project/EuroLLM-9B-Instruct
+### utter-project/EuroLLM-9B-Instruct
 
 https://huggingface.co/utter-project/EuroLLM-9B-Instruct
 
@@ -356,7 +356,7 @@ This is the model card for EuroLLM-9B-Instruct. You can also check the pre-train
 - **Language(s) (NLP):** Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, Swedish, Arabic, Catalan, Chinese, Galician, Hindi, Japanese, Korean, Norwegian, Russian, Turkish, and Ukrainian.
 - **License:** Apache License 2.0.
 
-Qwen/QwQ-32B-Preview
+### Qwen/QwQ-32B-Preview
 
 https://huggingface.co/Qwen/QwQ-32B-Preview
 
@@ -367,7 +367,7 @@ https://huggingface.co/Qwen/QwQ-32B-Preview
 3. **Safety and Ethical Considerations**: The model requires enhanced safety measures to ensure reliable and secure performance, and users should exercise caution when deploying it.
 4. **Performance and Benchmark Limitations**: The model excels in math and coding but has room for improvement in other areas, such as common sense reasoning and nuanced language understanding.
 
-nvidia/Hymba-1.5B-Base
+### nvidia/Hymba-1.5B-Base
 
 https://huggingface.co/nvidia/Hymba-1.5B-Base
 
@@ -377,19 +377,19 @@ The model has hybrid architecture with Mamba and Attention heads running in para
 
 ![](https://huggingface.co/nvidia/Hymba-1.5B-Base/resolve/main/images/performance2.png)
 
-mistralai/Mistral-Large-Instruct-2411
+### mistralai/Mistral-Large-Instruct-2411
 
 https://huggingface.co/mistralai/Mistral-Large-Instruct-2411
 
 Mistral-Large-Instruct-2411 is an advanced dense Large Language Model (LLM) of 123B parameters with state-of-the-art reasoning, knowledge and coding capabilities extending [**Mistral-Large-Instruct-2407**](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407) with better Long Context, Function Calling and System Prompt.
 
-Grok from xAI API
+### Grok from xAI API
 
 https://x.ai/api
 
 xAI provides a powerful developer toolkit for creating scalable applications with its Grok model, which supports diverse tasks like text generation, data extraction, and function calling. To get started, create an account, generate an API key, and explore Grok’s capabilities through available endpoints and integrations.
 
-tencent/Tencent-Hunyuan-Large
+### tencent/Tencent-Hunyuan-Large
 
 https://huggingface.co/tencent/Tencent-Hunyuan-Large
 
@@ -417,7 +417,7 @@ With the rapid development of artificial intelligence technology, large language
 | HumanEval | 61.0 | 58.5 | 53.1 | 48.8 | **71.4** |
 | MBPP | **73.4** | 68.6 | 64.2 | 66.6 | 72.6 |
 
-CohereForAI/aya-expanse-32b
+### CohereForAI/aya-expanse-32b
 
 https://huggingface.co/CohereForAI/aya-expanse-32b
 
@@ -425,7 +425,7 @@ https://huggingface.co/CohereForAI/aya-expanse-32b
 
 ![](https://huggingface.co/CohereForAI/aya-expanse-32b/media/main/winrates_marenahard_complete.png)
 
-HuggingFaceTB/SmolLM2-1.7B-Instruct
+### HuggingFaceTB/SmolLM2-1.7B-Instruct
 
 https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct
 
@@ -445,13 +445,13 @@ The 1.7B variant demonstrates significant advances over its predecessor SmolLM1-
 | BBH (3-shot) | 32.2 | 27.6 | **35.3** | 25.7 |
 | GSM8K (5-shot) | **48.2** | 26.8 | 42.8 | 4.62 |
 
-ibm-granite/granite-3.0-8b-instruct
+### ibm-granite/granite-3.0-8b-instruct
 
 https://huggingface.co/ibm-granite/granite-3.0-8b-instruct
 
 Granite-3.0-8B-Instruct is a 8B parameter model finetuned from Granite-3.0-8B-Base using a combination of open source instruction datasets with permissive license and internally collected synthetic datasets. This model is developed using a diverse set of techniques with a structured chat format, including supervised finetuning, model alignment using reinforcement learning, and model merging.
 
-CohereForAI/aya-expanse-8b
+### CohereForAI/aya-expanse-8b
 
 https://huggingface.co/CohereForAI/aya-expanse-8b
 
@@ -459,7 +459,7 @@ Aya Expanse is an open-weight research release of a model with highly advanced m
 
 ![](https://huggingface.co/CohereForAI/aya-expanse-8b/media/main/winrates_marenahard_complete.png)
 
-meta-llama/Llama-3.2-3B-Instruct-QLORA_INT4_EO8
+### meta-llama/Llama-3.2-3B-Instruct-QLORA_INT4_EO8
 
 https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/
 
@@ -469,7 +469,7 @@ https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/
 - Inferences using both quantization techniques are supported in the [Llama Stack](https://github.com/meta-llama/llama-stack) reference implementation via [PyTorch’s ExecuTorch framework](https://github.com/pytorch/executorch).
 - We built these quantized models in close collaboration with our industry-leading partners and are making them available on Qualcomm and MediaTek SoCs with Arm CPUs.
 
-mistralai/Ministral-8B-Instruct-2410
+### mistralai/Ministral-8B-Instruct-2410
 
 https://huggingface.co/mistralai/Ministral-8B-Instruct-2410
 
@@ -493,7 +493,7 @@ Chat/Arena (gpt-4o judge)
 | Llama 3.2 3B Instruct | 7.2 | 46.0 | 27.2 |
 | ***Ministral 3B Instruct*** | ***8.1*** | ***64.3*** | ***36.3*** |
 
-nvidia/Llama-3.1-Nemotron-70B-Instruct-HF
+### nvidia/Llama-3.1-Nemotron-70B-Instruct-HF
 
 https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF
 
@@ -511,7 +511,7 @@ Try hosted inference for free at [**build.nvidia.com**](https://build.nvidia.co
 | Claude-3-5-Sonnet-20240620 | 79.2 (-1.9, 1.7) | 52.4 (1.47) | 8.81 | 1619.9 |
 | GPT-4o-2024-05-13 | 79.3 (-2.1, 2.0) | 57.5 (1.47) | 8.74 | 1752.2 |
 
-Zyphra/Zamba2-7B
+### Zyphra/Zamba2-7B
 
 https://huggingface.co/Zyphra/Zamba2-7B
 
@@ -521,7 +521,7 @@ Zamba2-7B is a hybrid model combining state-space (Mamba2) and transformer block
 
 ![](https://cdn-uploads.huggingface.co/production/uploads/65c05e75c084467acab2f84a/qXG8aip6h77LHKjhWfjD5.png)
 
-allenai/Molmo-7B-D-0924
+### allenai/Molmo-7B-D-0924
 
 https://huggingface.co/allenai/Molmo-7B-D-0924
 
@@ -561,7 +561,7 @@ Molmo 7B-D is based on [**Qwen2-7B**](https://huggingface.co/Qwen/Qwen2-7B) an
 
 Benchmarks: AI2D test, ChartQA test, VQA v2.0 test, DocQA test, InfographicVQA test, TextVQA val, RealWorldQA, MMMU val, MathVista testmini, CountBenchQA, Flickr Count (we collected this new dataset that is significantly harder than CountBenchQA).
 
-rhymes-ai/Aria
+### rhymes-ai/Aria
 
 https://huggingface.co/rhymes-ai/Aria
 
@@ -583,7 +583,7 @@ https://huggingface.co/rhymes-ai/Aria
 | **Reasoning (Language)** | ARC Challenge | 91.0 | - | 83.4 | 96.4 | - |
 | **Coding** | HumanEval | 73.2 | 72.0 | 72.6 | 87.2 | 74.3 |
 
-arcee-ai/SuperNova-Medius
+### arcee-ai/SuperNova-Medius
 
 https://huggingface.co/arcee-ai/SuperNova-Medius
 
@@ -598,7 +598,7 @@ SuperNova-Medius is designed to excel in a variety of business use cases, includ
 | Qwen2.5-14B-Instruct | 0.450 | 0.827 | 0.623 | 0.358 | 0.490 | 0.403 | 0.000 |
 | Supernova-Medius | **0.480** | **0.832** | **0.631** | **0.359** | **0.502** | **0.402** | **0.152** |
 
-Zyphra/Zamba2-2.7B-instruct
+### Zyphra/Zamba2-2.7B-instruct
 
 https://huggingface.co/Zyphra/Zamba2-2.7B-instruct
 
@@ -611,7 +611,7 @@ Zamba2-2.7B-Instruct is a hybrid model composed of state-space ([**Mamba2**](htt
 
 ![](https://cdn-uploads.huggingface.co/production/uploads/65bc13717c6ad1994b6619e9/QnudHrMeMx_NuRc2evwRG.png)
 
-KingNish/Reasoning-Llama-1b-v0.1
+### KingNish/Reasoning-Llama-1b-v0.1
 
 https://huggingface.co/KingNish/Reasoning-Llama-1b-v0.1
 
@@ -687,7 +687,7 @@ ANSWER: 9.9 is greater than 9.11 because the second digit in 9.9 is 9, while the
 
 ```
 
-nvidia/NVLM-D-72B
+### nvidia/NVLM-D-72B
 
 https://huggingface.co/nvidia/NVLM-D-72B
 
@@ -708,7 +708,7 @@ Results (as of September 17th, 2024) in the multimodal benchmarks are as follows
 | Claude 3.5 Sonnet | 68.3 / - | 67.7 | 788 | 94.7 | 90.8 | 95.2 | - | - | - |
 | Gemini 1.5 Pro (Aug 2024) | 62.2 / - | 63.9 | 754 | 94.4 | 87.2 | 93.1 | 78.7 | 70.4 | 80.2 |
 
-allenai/Molmo-72B-0924
+### allenai/Molmo-72B-0924
 
 https://huggingface.co/allenai/Molmo-72B-0924
 
@@ -738,19 +738,19 @@ Molmo 72B is based on [**Qwen2-72B**](https://huggingface.co/Qwen/Qwen2-72B) a
 | Pixtral 12B | 69.5 | 1016 |
 | Phi3.5-Vision 4B | 59.7 | 982 |
 
-meta-llama/Llama-3.2-11B-Vision-Instruct
+### meta-llama/Llama-3.2-11B-Vision-Instruct
 
 https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct
 
 The Llama 3.2-Vision collection of multimodal large language models (LLMs) is a collection of pretrained and instruction-tuned image reasoning generative models in 11B and 90B sizes (text + images in / text out). The Llama 3.2-Vision instruction-tuned models are optimized for visual recognition, image reasoning, captioning, and answering general questions about an image. The models outperform many of the available open source and closed multimodal models on common industry benchmarks.
 
-mistralai/Mistral-Small-Instruct-2409
+### mistralai/Mistral-Small-Instruct-2409
 
 https://huggingface.co/mistralai/Mistral-Small-Instruct-2409
 
 Mistral-Small-Instruct-2409 is an instruct fine-tuned version with the following characteristics: 22B parameters, Vocabulary to 32768, Supports function calling, 32k sequence length
 
-microsoft/GRIN-MoE
+### microsoft/GRIN-MoE
 
 https://huggingface.co/microsoft/GRIN-MoE
 
@@ -784,7 +784,7 @@ Benchmarks:
 | MBPP | 80.3 | 60.2 | 70.7 | 67.7 | 81.3 | 77.8 | 90.4 |
 | Average | 78.6 | 66.7 | 74.5 | 67.3 | 81.2 | 73.8 | 84.8 |
 
-Qwen/Qwen2.5-72B-Instruct
+### Qwen/Qwen2.5-72B-Instruct
 
 https://huggingface.co/Qwen/Qwen2.5-72B-Instruct
 
@@ -801,7 +801,7 @@ https://qwenlm.github.io/blog/qwen2.5/
 
 ![](https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5/Qwen2.5-72B-Instruct-Score.jpg)
 
-arcee-ai/Llama-3.1-SuperNova-Lite
+### arcee-ai/Llama-3.1-SuperNova-Lite
 
 https://huggingface.co/arcee-ai/Llama-3.1-SuperNova-Lite
 
@@ -817,7 +817,7 @@ Benchmark
 | BBH | 51.1 | 50.6 |
 | GPQA | 31.2 | 29.02 |
 
-OpenAI o1
+### OpenAI o1
 
 https://openai.com/index/introducing-openai-o1-preview/
 
@@ -827,7 +827,7 @@ As an early model, it doesn't yet have many of the features that make ChatGPT us
 
 But for complex reasoning tasks this is a significant advancement and represents a new level of AI capability. Given this, we are resetting the counter back to 1 and naming this series OpenAI o1.
 
-openbmb/MiniCPM3-4B
+### openbmb/MiniCPM3-4B
 
 https://huggingface.co/openbmb/MiniCPM3-4B
 
@@ -848,7 +848,7 @@ Evaluation Results
 | AlignBench v1.1 | 7.10 | 6.61 | 7.10 | 5.68 | 5.82 | 5.73 | 6.74 |
 | FollowBench-zh (SSR) | 63.0 | 56.4 | 57.0 | 50.6 | 64.6 | 58.1 | 66.8 |
 
-upstage/solar-pro-preview-instruct
+### upstage/solar-pro-preview-instruct
 
 https://huggingface.co/upstage/solar-pro-preview-instruct
 
@@ -858,7 +858,7 @@ Solar Pro Preview is developed using an enhanced version of our previous depth u
 
 ![](https://cdn-uploads.huggingface.co/production/uploads/5fd90c758fe27b1a6b077abb/jwMkqV88Hj8sJu7NjTedm.png)
 
-deepseek-ai/DeepSeek-V2.5
+### deepseek-ai/DeepSeek-V2.5
 
 https://huggingface.co/deepseek-ai/DeepSeek-V2.5
 
@@ -880,7 +880,7 @@ Benchmarks:
 | DS-FIM-Eval | N/A | 73.2 | 78.3 |
 | DS-Arena-Code | N/A | 49.5 | 63.1 |
 
-allenai/OLMoE-1B-7B-0924
+### allenai/OLMoE-1B-7B-0924
 
 https://huggingface.co/allenai/OLMoE-1B-7B-0924
 
@@ -897,7 +897,7 @@ Evaluation Snapshot:
 | OLMo-1B (0724) | 1.3B | ✅ | 32.1 | 67.5 | 36.4 | 53.5 | 74.0 | 62.9 |
 | Pythia-1B | 1.1B | ✅ | 31.1 | 48.0 | 31.4 | 63.4 | 68.9 | 52.7 |
 
-mattshumer/Reflection-70B
+### mattshumer/Reflection-70B
 
 https://huggingface.co/mattshumer/Reflection-70B
 
@@ -907,7 +907,7 @@ Benchmarks:
 
 ![](https://cdn-uploads.huggingface.co/production/uploads/60518f3731c5be7f3dd5ebc3/zNs-ZFs0SbnomH7mikiOU.png)
 
-Zyphra/Zamba2-2.7B
+### Zyphra/Zamba2-2.7B
 
 https://huggingface.co/Zyphra/Zamba2-2.7B
 
@@ -915,13 +915,13 @@ Zamba2-2.7B is a hybrid model composed of state-space and transformer blocks. It
 
 ![](https://cdn-uploads.huggingface.co/production/uploads/65c05e75c084467acab2f84a/U7VD9PYLj3XcEjgV08sP5.png)
 
-gpt-omni/mini-omni
+### gpt-omni/mini-omni
 
 https://huggingface.co/gpt-omni/mini-omni
 
 Mini-Omni is an open-source multimodel large language model that can hear, talk while thinking. Featuring real-time end-to-end speech input and streaming audio output conversational capabilities.
 
-c4ai-command-r-08-2024 and CohereForAI/c4ai-command-r-plus-08-2024
+### c4ai-command-r-08-2024 and CohereForAI/c4ai-command-r-plus-08-2024
 
 https://huggingface.co/CohereForAI/c4ai-command-r-plus-08-2024
 
@@ -935,7 +935,7 @@ C4AI Command R 08-2024 is a research release of a 35 billion parameter highly pe
 
 https://dashboard.cohere.com/playground/chat
 
-microsoft/Phi-3.5-MoE-instruct
+### microsoft/Phi-3.5-MoE-instruct
 
 https://huggingface.co/microsoft/Phi-3.5-MoE-instruct
 
@@ -943,7 +943,7 @@ Phi-3.5-MoE is a lightweight, state-of-the-art open model built upon datasets us
 
 Phi-3 MoE has 16x3.8B parameters with 6.6B active parameters when using 2 experts. The model is a mixture-of-expert decoder-only Transformer model using the tokenizer with vocabulary size of 32,064. The model is intended for broad commercial and research use in English. The model provides uses for general purpose AI systems and applications which require
 
-PleIAs/OCRonos-Vintage
+### PleIAs/OCRonos-Vintage
 
 https://huggingface.co/PleIAs/OCRonos-Vintage
 
@@ -951,13 +951,13 @@ OCRonos-Vintage was pre-trained from scratch on a dataset of cultural heritage a
 
 OCRonos-Vintage is only 124 million parameters. It can run easily on CPU or provide correction at scale on GPUs (>10k tokens/seconds) while providing a quality of correction comparable to GPT-4 or the llama version of OCRonos for English-speaking cultural archives.
 
-HuggingFaceM4/Idefics3-8B-Llama3
+### HuggingFaceM4/Idefics3-8B-Llama3
 
 https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3
 
 Idefics3 is an open multimodal model that accepts arbitrary sequences of image and text inputs and produces text outputs. The model can answer questions about images, describe visual content, create stories grounded on multiple images, or simply behave as a pure language model without visual inputs. It improves upon Idefics1 and Idefics2, significantly enhancing capabilities around OCR, document understanding and visual reasoning.
 
-google/gemma-2-9b
+### google/gemma-2-9b
 
 https://huggingface.co/google/gemma-2-9b
 
@@ -965,7 +965,7 @@ Gemma is a family of lightweight, state-of-the-art open models from Google, buil
 
 Hongsu: On chatbot-arena-leaderboard, gemma-2-9b gets 1218, while GPT4-0314 is 1186(August, 4)
 
-Meta-Llama-3.1
+### Meta-Llama-3.1
 
 https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct
 
@@ -977,51 +977,51 @@ https://huggingface.co/SciPhi/Triplex
 
 Triplex is a finetuned version of Phi3-3.8B for creating knowledge graphs from unstructured data developed by SciPhi.AI. It works by extracting triplets - simple statements consisting of a subject, predicate, and object - from text or other data sources.
 
-mistralai/Mistral-Nemo-Instruct-2407
+### mistralai/Mistral-Nemo-Instruct-2407
 
 https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407
 
 Released under the Apache 2 License, Pre-trained and instructed versions, Trained with a 128k context window, Trained on a large proportion of multilingual and code data, Drop-in replacement of Mistral 7B
 
-GPT-4o mini: advancing cost-efficient intelligence
+### GPT-4o mini: advancing cost-efficient intelligence
 
 https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/
 
 OpenAI is committed to making intelligence as broadly accessible as possible. Today, we're announcing GPT-4o mini, our most cost-efficient small model. We expect GPT-4o mini will significantly expand the range of applications built with AI by making intelligence much more affordable. GPT-4o mini scores 82% on MMLU and currently outperforms GPT-41 on chat preferences in LMSYS leaderboard(opens in a new window). It is priced at 15 cents per million input tokens and 60 cents per million output tokens, an order of magnitude more affordable than previous frontier models and more than 60% cheaper than GPT-3.5 Turbo.
 
-GAIR/Anole-7b-v0.1
+### GAIR/Anole-7b-v0.1
 
 https://huggingface.co/GAIR/Anole-7b-v0.1
 
 Anole is the first open-source, autoregressive, and natively trained large multimodal model capable of interleaved image-text generation (without using stable diffusion). 
 
-facebook/chameleon-7b
+### facebook/chameleon-7b
 
 https://huggingface.co/facebook/chameleon-7b
 
 Repository for Meta Chameleon, a mixed-modal early-fusion foundation model from FAIR. The Chameleon collection on HuggingFace contains 7 billion parameter and 30 billion parameter model checkpoints.
 
-Claude 3.5 Sonnet
+### Claude 3.5 Sonnet
 
 https://www.anthropic.com/news/claude-3-5-sonnet
 
-microsoft/Phi-3 medium, small, mini, vision
+### microsoft/Phi-3 medium, small, mini, vision
 
 https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3
 
-THUDM/glm-4-9b-chat
+### THUDM/glm-4-9b-chat
 
 https://huggingface.co/THUDM/glm-4-9b-chat
 
 我们还推出了支持 1M 上下文长度（约 200 万中文字符）的 GLM-4-9B-Chat-1M 模型和基于 GLM-4-9B 的多模态模型 GLM-4V-9B。
 
-Qwen2-72B
+### Qwen2-72B
 
 https://huggingface.co/Qwen/Qwen2-72B
 
 Qwen2 is the new series of Qwen large language models. For Qwen2, we release a number of base language models and instruction-tuned language models ranging from 0.5 to 72 billion parameters, including a Mixture-of-Experts model. This repo contains the 72B Qwen2 base language model.
 
-Mistral-7B-v0.3 has the following changes compared to Mistral-7B-v0.2
+### Mistral-7B-v0.3 has the following changes compared to Mistral-7B-v0.2
 
 - Extended vocabulary to 32768
 - Supports v3 Tokenizer
@@ -1029,7 +1029,7 @@ Mistral-7B-v0.3 has the following changes compared to Mistral-7B-v0.2
 
 https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3
 
-Smaug-Llama-3-70B-Instruct
+### Smaug-Llama-3-70B-Instruct
 
 The model outperforms Llama-3-70B-Instruct substantially, and is on par with GPT-4-Turbo, on MT-Bench (see below).
 
@@ -1037,13 +1037,13 @@ https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct
 
 # Embedding Models
 
-chandar-lab/NeoBERT
+### chandar-lab/NeoBERT
 
 https://huggingface.co/chandar-lab/NeoBERT
 
 NeoBERT is a next-generation encoder model for English text representation, pre-trained from scratch on the RefinedWeb dataset. NeoBERT integrates state-of-the-art advancements in architecture, modern data, and optimized pre-training methodologies. It is designed for seamless adoption: it serves as a plug-and-play replacement for existing base models, relies on an optimal depth-to-width ratio, and leverages an extended context length of 4,096 tokens. Despite its compact 250M parameter footprint, it is the most efficient model of its kind and achieves state-of-the-art results on the massive MTEB benchmark, outperforming BERT large, RoBERTa large, NomicBERT, and ModernBERT under identical fine-tuning conditions.
 
-nomic-ai/nomic-embed-text-v2-moe
+### nomic-ai/nomic-embed-text-v2-moe
 
 https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe
 
@@ -1065,7 +1065,7 @@ https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe
 | Arctic Embed v2 Large | 568 | 1024 | **55.65** | 66.00 | ❌ | ❌ | ❌ |
 | mE5 Large | 560 | 1024 | 51.40 | 66.50 | ❌ | ❌ | ❌ |
 
-Alibaba-NLP/gte-modernbert-base
+### Alibaba-NLP/gte-modernbert-base
 
 https://huggingface.co/Alibaba-NLP/gte-modernbert-base
 
@@ -1073,7 +1073,7 @@ We are excited to introduce the gte-modernbert series of models, which are built
 
 The gte-modernbert models demonstrates competitive performance in several text embedding and text retrieval evaluation tasks when compared to similar-scale models from the current open-source community. This includes assessments such as MTEB, LoCO, and COIR evaluation.
 
-llamaindex/vdr-2b-multi-v1
+### llamaindex/vdr-2b-multi-v1
 
 https://huggingface.co/llamaindex/vdr-2b-multi-v1
 
@@ -1083,17 +1083,17 @@ vdr-2b-multi-v1 is a multilingual embedding model designed for visual document r
 - **Cross-lingual Retrieval**: substantially better on real-world scenarios. For example, this allows for searching german documents with italian queries.
 - **Matryoshka Representation Learning**: You can reduce the vectors size 3x and still keep 98% of the embeddings quality.
 
-google/Gemma-Embeddings-v1.0
+### google/Gemma-Embeddings-v1.0
 
 https://huggingface.co/google/Gemma-Embeddings-v1.0
 
 GemmaEmbed is a dense-vector embedding model, trained especially for retrieval. As of December 12, 2024, GemmaEmbed achieves the #1 position overall on the MTEB leaderboard, with a score of 72.72.
 
-Massive Text Embedding Benchmark
+### Massive Text Embedding Benchmark
 
 https://huggingface.co/spaces/mteb/leaderboard
 
-jinaai/jina-clip-v2
+### jinaai/jina-clip-v2
 
 https://huggingface.co/jinaai/jina-clip-v2
 
@@ -1101,31 +1101,31 @@ jina-clip-v2 is a general-purpose multilingual multimodal embedding model for te
 
 Multimodal embeddings enable searching and understanding data across different modalities through a coherent representation. They serve as the backbone of neural information retrieval and multimodal GenAI applications.
 
-jxm/cde-small-v1
+### jxm/cde-small-v1
 
 https://huggingface.co/jxm/cde-small-v1
 
 Our new model that naturally integrates "context tokens" into the embedding process. As of October 1st, 2024, cde-small-v1 is the best small model (under 400M params) on the MTEB leaderboard for text embedding models, with an average score of 65.00.
 
-openbmb/MiniCPM-Embedding
+### openbmb/MiniCPM-Embedding
 
 https://huggingface.co/openbmb/MiniCPM-Embedding
 
 MiniCPM-Embedding is trained based on MiniCPM-2B-sft-bf16 and incorporates bidirectional attention and Weighted Mean Pooling(Muennighoff, N. (2022). Sgpt: Gpt sentence embeddings for semantic search. arXiv preprint arXiv:2202.08904) in its architecture. The model underwent multi-stage training using approximately 6 million training examples, including open-source, synthetic, and proprietary data.
 
-dleemiller/word-llama-l2-supercat
+### dleemiller/word-llama-l2-supercat
 
 https://huggingface.co/dleemiller/word-llama-l2-supercat
 
 WordLlama is a fast, lightweight NLP toolkit that handles tasks like fuzzy-deduplication, similarity and ranking with minimal inference-time dependencies and optimized for CPU hardware.
 
-jinaai/jina-embeddings-v3
+### jinaai/jina-embeddings-v3
 
 https://huggingface.co/jinaai/jina-embeddings-v3
 
 jina-embeddings-v3 is a **multilingual multi-task text embedding model** designed for a variety of NLP applications. Based on the [**Jina-XLM-RoBERTa architecture**](https://huggingface.co/jinaai/xlm-roberta-flash-implementation), this model supports Rotary Position Embeddings to handle long input sequences up to **8192 tokens**. Additionally, it features 5 LoRA adapters to generate task-specific embeddings efficiently.
 
-answerdotai/answerai-colbert-small-v1
+### answerdotai/answerai-colbert-small-v1
 
 https://huggingface.co/answerdotai/answerai-colbert-small-v1
 
@@ -1133,13 +1133,13 @@ https://huggingface.co/answerdotai/answerai-colbert-small-v1
 
 # Other Traditional Transformer Language Models
 
-iiiorg/piiranha-v1-detect-personal-information
+### iiiorg/piiranha-v1-detect-personal-information
 
 [https://huggingface.co/iiiorg/piiranha-v1-detect-personal-information?text=送孟浩然之广陵](https://huggingface.co/iiiorg/piiranha-v1-detect-personal-information?text=%E9%80%81%E5%AD%9F%E6%B5%A9%E7%84%B6%E4%B9%8B%E5%B9%BF%E9%99%B5)
 
 Piiranha (cc-by-nc-nd-4.0 license) is trained to detect 17 types of Personally Identifiable Information (PII) across six languages. It successfully catches 98.27% of PII tokens, with an overall classification accuracy of 99.44%. Piiranha is especially accurate at detecting passwords, emails (100%), phone numbers, and usernames.
 
-jinaai/reader-lm-0.5b
+### jinaai/reader-lm-0.5b
 
 https://huggingface.co/jinaai/reader-lm-0.5b
 
@@ -1149,13 +1149,13 @@ Hongsu notes: On Colab A100, it takes 7 minutes to convert 1,130 words of HTML t
 
 # Other Models
 
-Mozilla/whisperfile
+### Mozilla/whisperfile
 
 https://huggingface.co/Mozilla/whisperfile
 
 Whisperfile is a high-performance implementation of OpenAI's Whisper created by Mozilla Ocho as part of the llamafile project, based on the whisper.cpp software written by Georgi Gerganov, et al.
 
-Qwen/Qwen2-Audio-7B-Instruct
+### Qwen/Qwen2-Audio-7B-Instruct
 
 https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct
 
