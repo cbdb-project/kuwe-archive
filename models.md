@@ -2,6 +2,16 @@
 
 ## Generative Large Language Models
 
+### google/gemma-3n-E4B-it-litert-preview
+
+https://huggingface.co/google/gemma-3n-E4B-it-litert-preview
+
+Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models. Gemma models are well-suited for a variety of content understanding tasks, including question answering, summarization, and reasoning. Their relatively small size makes it possible to deploy them in environments with limited resources such as laptops, desktops or your own cloud infrastructure, democratizing access to state of the art AI models and helping foster innovation for everyone.
+
+Gemma 3n models are designed for efficient execution on low-resource devices. They are capable of multimodal input, handling text, image, video, and audio input, and generating text outputs, with open weights for instruction-tuned variants. These models were trained with data in over 140 spoken languages.
+
+Gemma 3n models use selective parameter activation technology to reduce resource requirements. This technique allows the models to operate at an effective size of 2B and 4B parameters, which is lower than the total number of parameters they contain. For more information on Gemma 3n's efficient parameter management technology, see the [**Gemma 3n**](https://ai.google.dev/gemma/docs/gemma-3n#parameters) page.
+
 ### microsoft/Phi-4-reasoning-plus
 
 https://huggingface.co/microsoft/Phi-4-reasoning-plus
