@@ -1084,7 +1084,12 @@ The model outperforms Llama-3-70B-Instruct substantially, and is on par with GPT
 
 https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct
 
-# Embedding Models
+## Embedding Models
+
+### Qwen/Qwen3-Reranker-0.6B
+https://huggingface.co/Qwen/Qwen3-Reranker-0.6B
+The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B). This series inherits the exceptional multilingual capabilities, long-text understanding, and reasoning skills of its foundational model. The Qwen3 Embedding series represents significant advancements in multiple text embedding and ranking tasks, including text retrieval, code retrieval, text classification, text clustering, and bitext mining.
+
 
 ### chandar-lab/NeoBERT
 
