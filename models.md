@@ -2,6 +2,16 @@
 
 ## Generative Large Language Models
 
+### mistralai/Magistral-Small-2506
+
+https://huggingface.co/mistralai/Magistral-Small-2506
+
+Building upon Mistral Small 3.1 (2503), **with added reasoning capabilities**, undergoing SFT from Magistral Medium traces and RL on top, it's a small, efficient reasoning model with 24B parameters.
+
+Magistral Small can be deployed locally, fitting within a single RTX 4090 or a 32GB RAM MacBook once quantized.
+
+Learn more about Magistral in our [**blog post**](https://mistral.ai/news/magistral/).
+
 ### google/gemma-3n-E4B-it-litert-preview
 
 https://huggingface.co/google/gemma-3n-E4B-it-litert-preview
@@ -1086,7 +1096,8 @@ https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct
 
 ## Embedding Models
 
-### Qwen/Qwen3-Reranker-0.6B
+### Qwen/Qwen3-Reranker-0.6B and Qwen/Qwen3-Embedding-0.6B
+https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
 https://huggingface.co/Qwen/Qwen3-Reranker-0.6B
 The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B). This series inherits the exceptional multilingual capabilities, long-text understanding, and reasoning skills of its foundational model. The Qwen3 Embedding series represents significant advancements in multiple text embedding and ranking tasks, including text retrieval, code retrieval, text classification, text clustering, and bitext mining.
 
