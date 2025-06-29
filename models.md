@@ -1094,6 +1094,33 @@ https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct
 
 ## Embedding Models
 
+### jinaai/jina-embeddings-v4
+
+https://huggingface.co/jinaai/jina-embeddings-v4
+
+`jina-embeddings-v4` is a universal embedding model for multimodal and multilingual retrieval. The model is specially designed for complex document retrieval, including visually rich documents with charts, tables, and illustrations.
+
+Built on [**Qwen/Qwen2.5-VL-3B-Instruct**](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct), `jina-embeddings-v4` features:
+
+- **Unified embeddings** for text, images, and visual documents, supporting both dense (single-vector) and late-interaction (multi-vector) retrieval.
+- **Multilingual support** (30+ languages) and compatibility with a wide range of domains, including technical and visually complex documents.
+- **Task-specific adapters** for retrieval, text matching, and code-related tasks, which can be selected at inference time.
+- **Flexible embedding size**: dense embeddings are 2048 dimensions by default but can be truncated to as low as 128 with minimal performance loss.
+
+Summary of features:
+
+| **Feature** | **Jina Embeddings V4** |
+| --- | --- |
+| Base Model | Qwen2.5-VL-3B-Instruct |
+| Supported Tasks | `retrieval`, `text-matching`, `code` |
+| Model DType | BFloat 16 |
+| Max Sequence Length | 32768 |
+| Single-Vector Dimension | 2048 |
+| Multi-Vector Dimension | 128 |
+| Matryoshka dimensions | 128, 256, 512, 1024, 2048 |
+| Pooling Strategy | Mean pooling |
+| Attention Mechanism | FlashAttention2 |
+
 ### Qwen/Qwen3-Reranker-0.6B and Qwen/Qwen3-Embedding-0.6B
 https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
 https://huggingface.co/Qwen/Qwen3-Reranker-0.6B
