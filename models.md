@@ -2,6 +2,16 @@
 
 ## Generative Large Language Models
 
+### moonshotai/Kimi-Dev-72B
+
+https://huggingface.co/moonshotai/Kimi-Dev-72B
+
+We introduce Kimi-Dev-72B, our new open-source coding LLM for software engineering tasks. Kimi-Dev-72B achieves a new state-of-the-art on SWE-bench Verified among open-source models.
+
+- Kimi-Dev-72B achieves 60.4% performance on SWE-bench Verified. It surpasses the runner-up, setting a new state-of-the-art result among open-source models.
+- Kimi-Dev-72B is optimized via large-scale reinforcement learning. It autonomously patches real repositories in Docker and gains rewards only when the entire test suite passes. This ensures correct and robust solutions, aligning with real-world development standards.
+- Kimi-Dev-72B is available for download and deployment on Hugging Face and GitHub. We welcome developers and researchers to explore its capabilities and contribute to development.
+
 ### mistralai/Magistral-Small-2506
 
 https://huggingface.co/mistralai/Magistral-Small-2506
