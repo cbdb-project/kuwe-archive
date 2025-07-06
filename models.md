@@ -2,6 +2,12 @@
 
 ## Generative Large Language Models
 
+### ChatDOC/OCRFlux-3B
+
+https://huggingface.co/ChatDOC/OCRFlux-3B
+
+This is a preview release of the OCRFlux-3B model that's fine tuned from Qwen2.5-VL-3B-Instruct using the our private document datasets and some data from [**olmOCR-mix-0225**](https://huggingface.co/datasets/allenai/olmOCR-mix-0225) dataset.
+
 ### moonshotai/Kimi-Dev-72B
 
 https://huggingface.co/moonshotai/Kimi-Dev-72B
