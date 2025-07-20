@@ -2,6 +2,31 @@
 
 ## Generative Large Language Models
 
+### LiquidAI/LFM2-1.2B
+
+https://huggingface.co/LiquidAI/LFM2-1.2B
+
+LFM2 is a new generation of hybrid models developed by [**Liquid AI**](https://www.liquid.ai/), specifically designed for edge AI and on-device deployment. It sets a new standard in terms of quality, speed, and memory efficiency.
+
+We're releasing the weights of three post-trained checkpoints with 350M, 700M, and 1.2B parameters. They provide the following key features to create AI-powered edge applications:
+
+- **Fast training & inference** – LFM2 achieves 3x faster training compared to its previous generation. It also benefits from 2x faster decode and prefill speed on CPU compared to Qwen3.
+- **Best performance** – LFM2 outperforms similarly-sized models across multiple benchmark categories, including knowledge, mathematics, instruction following, and multilingual capabilities.
+- **New architecture** – LFM2 is a new hybrid Liquid model with multiplicative gates and short convolutions.
+- **Flexible deployment** – LFM2 runs efficiently on CPU, GPU, and NPU hardware for flexible deployment on smartphones, laptops, or vehicles.
+
+Find more information about LFM2 in our [**blog post**](https://www.liquid.ai/blog/liquid-foundation-models-v2-our-second-series-of-generative-ai-models).
+
+| **Model** | **MMLU** | **GPQA** | **IFEval** | **IFBench** | **GSM8K** | **MGSM** | **MMMLU** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LFM2-350M | 43.43 | 27.46 | 65.12 | 16.41 | 30.1 | 29.52 | 37.99 |
+| LFM2-700M | 49.9 | 28.48 | 72.23 | 20.56 | 46.4 | 45.36 | 43.28 |
+| LFM2-1.2B | *55.23* | **31.47** | **74.89** | *20.7* | *58.3* | *55.04* | **46.73** |
+| Qwen3-0.6B | 44.93 | 22.14 | 64.24 | 19.75 | 36.47 | 41.28 | 30.84 |
+| Qwen3-1.7B | **59.11** | 27.72 | *73.98* | **21.27** | 51.4 | **66.56** | *46.51* |
+| Llama-3.2-1B-Instruct | 46.6 | *28.84* | 52.39 | 16.86 | 35.71 | 29.12 | 38.15 |
+| gemma-3-1b-it | 40.08 | 21.07 | 62.9 | 17.72 | **59.59** | 43.6 | 34.43 |
+
 ### HuggingFaceTB/SmolLM3-3B
 
 https://huggingface.co/HuggingFaceTB/SmolLM3-3B
