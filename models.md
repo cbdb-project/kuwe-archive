@@ -2,6 +2,18 @@
 
 ## Generative Large Language Models
 
+### ByteDance-Seed/Seed-X-Instruct-7B
+
+https://huggingface.co/ByteDance-Seed/Seed-X-Instruct-7B
+
+We are excited to introduce **Seed-X**, a powerful series of open-source multilingual translation language models, including an instruction model, a reinforcement learning model, and a reward model. It pushes the boundaries of translation capabilities within 7 billion parameters. We develop Seed-X as an accessible, off-the-shelf tool to support the community in advancing translation research and applications:
+
+- **Exceptional translation capabilities**: Seed-X exhibits state-of-the-art translation capabilities, on par with or outperforming ultra-large models like Gemini-2.5, Claude-3.5, and GPT-4, as validated by human evaluations and automatic metrics.
+- **Deployment and inference-friendly**: With a compact 7B parameter count and mistral architecture, Seed-X offers outstanding translation performance in a lightweight and efficient package, ideal for deployment and inference.
+- **Broad domain coverage**: Seed-X excels on a highly challenging translation test set spanning diverse domains, including the internet, science and technology, office dialogues, e-commerce, biomedicine, finance, law, literature, and entertainment.
+
+![Seed-X-Instruct-7B](https://huggingface.co/ByteDance-Seed/Seed-X-Instruct-7B/resolve/main/imgs/model_comparsion.png)
+
 ### THUDM/GLM-4.1V-9B-Thinking
 
 https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking
