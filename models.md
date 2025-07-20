@@ -2,6 +2,16 @@
 
 ## Generative Large Language Models
 
+### THUDM/GLM-4.1V-9B-Thinking
+
+https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking
+
+Vision-Language Models (VLMs) have become foundational components of intelligent systems. As real-world AI tasks grow increasingly complex, VLMs must evolve beyond basic multimodal perception to enhance their reasoning capabilities in complex tasks. This involves improving accuracy, comprehensiveness, and intelligence, enabling applications such as complex problem solving, long-context understanding, and multimodal agents.
+
+Based on the [**GLM-4-9B-0414**](https://github.com/THUDM/GLM-4) foundation model, we present the new open-source VLM model **GLM-4.1V-9B-Thinking**, designed to explore the upper limits of reasoning in vision-language models. By introducing a "thinking paradigm" and leveraging reinforcement learning, the model significantly enhances its capabilities. It achieves state-of-the-art performance among 10B-parameter VLMs, matching or even surpassing the 72B-parameter Qwen-2.5-VL-72B on 18 benchmark tasks. We are also open-sourcing the base model GLM-4.1V-9B-Base to support further research into the boundaries of VLM capabilities.
+
+![GLM-4.1V-9B-Thinking](https://raw.githubusercontent.com/THUDM/GLM-4.1V-Thinking/refs/heads/main/resources/bench.jpeg)
+
 ### LiquidAI/LFM2-1.2B
 
 https://huggingface.co/LiquidAI/LFM2-1.2B
