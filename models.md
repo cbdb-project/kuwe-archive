@@ -2,6 +2,14 @@
 
 ## Generative Large Language Models
 
+### HuggingFaceTB/SmolLM3-3B
+
+https://huggingface.co/HuggingFaceTB/SmolLM3-3B
+
+SmolLM3 is a 3B parameter language model designed to push the boundaries of small models. It supports dual mode reasoning, 6 languages and long context. SmolLM3 is a fully open model that offers strong performance at the 3B–4B scale.
+
+![SmolLM3-3B terst](https://cdn-uploads.huggingface.co/production/uploads/6200d0a443eb0913fa2df7cc/db3az7eGzs-Sb-8yUj-ff.png)
+
 ### baidu/ERNIE-4.5-VL-424B-A47B-Base-PT
 
 https://huggingface.co/baidu/ERNIE-4.5-VL-424B-A47B-Base-PT
