@@ -2,6 +2,19 @@
 
 ## Generative Large Language Models
 
+### Qwen/Qwen3-235B-A22B-Instruct-2507
+
+https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507
+
+We introduce the updated version of the **Qwen3-235B-A22B non-thinking mode**, named **Qwen3-235B-A22B-Instruct-2507**, featuring the following key enhancements:
+
+- **Significant improvements** in general capabilities, including **instruction following, logical reasoning, text comprehension, mathematics, science, coding and tool usage**.
+- **Substantial gains** in long-tail knowledge coverage across **multiple languages**.
+- **Markedly better alignment** with user preferences in **subjective and open-ended tasks**, enabling more helpful responses and higher-quality text generation.
+- **Enhanced capabilities** in **256K long-context understanding**.
+
+![Qwen3-235B-A22B](https://cdn-uploads.huggingface.co/production/uploads/62430a8522549d0917bfeb5a/0d7zztq4GB7G2ZYowO-dQ.jpeg)
+
 ### ByteDance-Seed/Seed-X-Instruct-7B
 
 https://huggingface.co/ByteDance-Seed/Seed-X-Instruct-7B
