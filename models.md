@@ -2,6 +2,20 @@
 
 ## Generative Large Language Models
 
+### zai-org/GLM-4.5
+
+https://huggingface.co/zai-org/GLM-4.5
+
+The **GLM-4.5** series models are foundation models designed for intelligent agents. GLM-4.5 has **355** billion total parameters with **32** billion active parameters, while GLM-4.5-Air adopts a more compact design with **106** billion total parameters and **12** billion active parameters. GLM-4.5 models unify reasoning, coding, and intelligent agent capabilities to meet the complex demands of intelligent agent applications.
+
+Both GLM-4.5 and GLM-4.5-Air are hybrid reasoning models that provide two modes: thinking mode for complex reasoning and tool usage, and non-thinking mode for immediate responses.
+
+We have open-sourced the base models, hybrid reasoning models, and FP8 versions of the hybrid reasoning models for both GLM-4.5 and GLM-4.5-Air. They are released under the MIT open-source license and can be used commercially and for secondary development.
+
+As demonstrated in our comprehensive evaluation across 12 industry-standard benchmarks, GLM-4.5 achieves exceptional performance with a score of **63.2**, in the **3rd** place among all the proprietary and open-source models. Notably, GLM-4.5-Air delivers competitive results at **59.8** while maintaining superior efficiency.
+
+![GLM-4.5](https://raw.githubusercontent.com/zai-org/GLM-4.5/refs/heads/main/resources/bench.png)
+
 ### Qwen/Qwen3-235B-A22B-Instruct-2507
 
 https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507
