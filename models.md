@@ -2,6 +2,19 @@
 
 ## Generative Large Language Models
 
+### rednote-hilab/dots.ocr
+
+https://huggingface.co/rednote-hilab/dots.ocr
+
+**dots.ocr** is a powerful, multilingual document parser that unifies layout detection and content recognition within a single vision-language model while maintaining good reading order. Despite its compact 1.7B-parameter LLM foundation, it achieves state-of-the-art(SOTA) performance.
+
+1. **Powerful Performance:** **dots.ocr** achieves SOTA performance for text, tables, and reading order on [**OmniDocBench**](https://github.com/opendatalab/OmniDocBench), while delivering formula recognition results comparable to much larger models like Doubao-1.5 and gemini2.5-pro.
+2. **Multilingual Support:** **dots.ocr** demonstrates robust parsing capabilities for low-resource languages, achieving decisive advantages across both layout detection and content recognition on our in-house multilingual documents benchmark.
+3. **Unified and Simple Architecture:** By leveraging a single vision-language model, **dots.ocr** offers a significantly more streamlined architecture than conventional methods that rely on complex, multi-model pipelines. Switching between tasks is accomplished simply by altering the input prompt, proving that a VLM can achieve competitive detection results compared to traditional detection models like DocLayout-YOLO.
+4. **Efficient and Fast Performance:** Built upon a compact 1.7B LLM, **dots.ocr** provides faster inference speeds than many other high-performing models based on larger foundations.
+
+![dots.ocr](https://raw.githubusercontent.com/rednote-hilab/dots.ocr/master/assets/chart.png)
+
 ### openbmb/MiniCPM-V-4
 
 https://huggingface.co/openbmb/MiniCPM-V-4
@@ -14,7 +27,7 @@ https://huggingface.co/openbmb/MiniCPM-V-4
 
 Examples
 
-![](https://raw.githubusercontent.com/openbmb/MiniCPM-o/main/assets/minicpmv4/minicpm-v-4-case.png)
+![MiniCPM-V-4](https://raw.githubusercontent.com/openbmb/MiniCPM-o/main/assets/minicpmv4/minicpm-v-4-case.png)
 
 ### zai-org/GLM-4.5
 
