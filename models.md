@@ -2,6 +2,20 @@
 
 ## Generative Large Language Models
 
+### openbmb/MiniCPM-V-4
+
+https://huggingface.co/openbmb/MiniCPM-V-4
+
+**MiniCPM-V 4.0** is the latest efficient model in the MiniCPM-V series. The model is built based on SigLIP2-400M and MiniCPM4-3B with a total of 4.1B parameters. It inherits the strong single-image, multi-image and video understanding performance of MiniCPM-V 2.6 with largely improved efficiency. Notable features of MiniCPM-V 4.0 include:
+
+- 🔥 **Leading Visual Capability.** With only 4.1B parameters, MiniCPM-V 4.0 achieves an average score of 69.0 on OpenCompass, a comprehensive evaluation of 8 popular benchmarks, **outperforming GPT-4.1-mini-20250414, MiniCPM-V 2.6 (8.1B params, OpenCompass 65.2) and Qwen2.5-VL-3B-Instruct (3.8B params, OpenCompass 64.5)**. It also shows good performance in multi-image understanding and video understanding.
+- 🚀 **Superior Efficiency.** Designed for on-device deployment, MiniCPM-V 4.0 runs smoothly on end devices. For example, it devlivers **less than 2s first token delay and more than 17 token/s decoding on iPhone 16 Pro Max**, without heating problems. It also shows superior throughput under concurrent requests.
+- 💫 **Easy Usage.** MiniCPM-V 4.0 can be easily used in various ways including **llama.cpp, Ollama, vLLM, SGLang, LLaMA-Factory and local web demo** etc. We also open-source iOS App that can run on iPhone and iPad. Get started easily with our well-structured [**Cookbook**](https://github.com/OpenSQZ/MiniCPM-V-CookBook), featuring detailed instructions and practical examples.
+
+Examples
+
+![](https://raw.githubusercontent.com/openbmb/MiniCPM-o/main/assets/minicpmv4/minicpm-v-4-case.png)
+
 ### zai-org/GLM-4.5
 
 https://huggingface.co/zai-org/GLM-4.5
