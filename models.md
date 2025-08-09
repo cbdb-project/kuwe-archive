@@ -2,6 +2,20 @@
 
 ## Generative Large Language Models
 
+### Qwen/Qwen3-4B-Thinking-2507
+
+https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507
+
+Over the past three months, we have continued to scale the **thinking capability** of Qwen3-4B, improving both the **quality and depth** of reasoning. We are pleased to introduce **Qwen3-4B-Thinking-2507**, featuring the following key enhancements:
+
+- **Significantly improved performance** on reasoning tasks, including logical reasoning, mathematics, science, coding, and academic benchmarks that typically require human expertise.
+- **Markedly better general capabilities**, such as instruction following, tool usage, text generation, and alignment with human preferences.
+- **Enhanced 256K long-context understanding** capabilities.
+
+**NOTE**: This version has an increased thinking length. We strongly recommend its use in highly complex reasoning tasks.
+
+![Qwen3-4B-Thinking-2507](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3-2507/Qwen3-4B-Instruct.001.jpeg)
+
 ### openai/gpt-oss-20b
 
 https://huggingface.co/openai/gpt-oss-20b
