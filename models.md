@@ -2,6 +2,12 @@
 
 ## Generative Large Language Models
 
+### CohereLabs/command-a-reasoning-08-2025
+
+https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
+
+Cohere Labs Command A Reasoning is an open weights research release of a 111 billion parameter model optimized for tool use, agentic, and multilingual use cases with reasoning capabilities. The model can be used both with reasoning on for increased performance or with reasoning off for lower latency responses, using the ‘reasoning’ parameter.
+
 ### Qwen/Qwen3-4B-Thinking-2507
 
 https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507
