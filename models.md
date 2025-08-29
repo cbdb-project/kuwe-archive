@@ -2,6 +2,16 @@
 
 ## Generative Large Language Models
 
+### nvidia/NVIDIA-Nemotron-Nano-9B-v2
+
+https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2
+
+NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. The model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so, albeit with a slight decrease in accuracy for harder prompts that require reasoning. Conversely, allowing the model to generate reasoning traces first generally results in higher-quality final solutions to queries and tasks.
+
+![NVIDIA-Nemotron-Nano-9B-v2](https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2/resolve/main/accuracy_chart.png)
+
+
+
 ### openbmb/MiniCPM-V-4_5
 
 https://huggingface.co/openbmb/MiniCPM-V-4_5
