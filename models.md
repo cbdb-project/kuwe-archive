@@ -2,6 +2,14 @@
 
 ## Generative Large Language Models
 
+### openbmb/MiniCPM-V-4_5
+
+https://huggingface.co/openbmb/MiniCPM-V-4_5
+
+MiniCPM-V 4.5 is the latest and most capable model in the MiniCPM-V series. The model is built on Qwen3-8B and SigLIP2-400M with a total of 8B parameters. It exhibits a significant performance improvement over previous MiniCPM-V and MiniCPM-o models, and introduces new useful features.
+
+![MiniCPM-V-4_5](https://raw.githubusercontent.com/openbmb/MiniCPM-o/main/assets/minicpmv_4_5_evaluation_result.png)
+
 ### CohereLabs/command-a-reasoning-08-2025
 
 https://huggingface.co/CohereLabs/command-a-reasoning-08-2025
