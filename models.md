@@ -11,7 +11,6 @@ NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch 
 ![NVIDIA-Nemotron-Nano-9B-v2](https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2/resolve/main/accuracy_chart.png)
 
 
-
 ### openbmb/MiniCPM-V-4_5
 
 https://huggingface.co/openbmb/MiniCPM-V-4_5
