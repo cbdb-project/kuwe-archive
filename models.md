@@ -2,6 +2,21 @@
 
 ## Generative Large Language Models
 
+### Qwen/Qwen3-Next-80B-A3B-Instruct
+
+https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct
+
+Over the past few months, we have observed increasingly clear trends toward scaling both total parameters and context lengths in the pursuit of more powerful and agentic artificial intelligence (AI). We are excited to share our latest advancements in addressing these demands, centered on improving scaling efficiency through innovative model architecture. We call this next-generation foundation models Qwen3-Next.
+
+**Qwen3-Next-80B-A3B** is the first installment in the Qwen3-Next series and features the following key enchancements:
+
+- **Hybrid Attention**: Replaces standard attention with the combination of **Gated DeltaNet** and **Gated Attention**, enabling efficient context modeling for ultra-long context length.
+- **High-Sparsity Mixture-of-Experts (MoE)**: Achieves an extreme low activation ratio in MoE layers, drastically reducing FLOPs per token while preserving model capacity.
+- **Stability Optimizations**: Includes techniques such as **zero-centered and weight-decayed layernorm**, and other stabilizing enhancements for robust pre-training and post-training.
+- **Multi-Token Prediction (MTP)**: Boosts pretraining model performance and accelerates inference.
+
+![Qwen3-Next-80B-A3B-Instruct](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3-Next/Qwen3-Next-80B-A3B-Instruct.001.jpeg)
+
 ### Alibaba-NLP/DeepResearch
 
 https://github.com/Alibaba-NLP/DeepResearch
