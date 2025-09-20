@@ -2,6 +2,14 @@
 
 ## Generative Large Language Models
 
+### Alibaba-NLP/DeepResearch
+
+https://github.com/Alibaba-NLP/DeepResearch
+
+We present  Tongyi DeepResearch, an agentic large language model featuring 30.5 billion total parameters, with only 3.3 billion activated per token. Developed by Tongyi Lab, the model is specifically designed for long-horizon, deep information-seeking tasks. Tongyi DeepResearch demonstrates state-of-the-art performance across a range of agentic search benchmarks, including Humanity's Last Exam, BrowserComp, BrowserComp-ZH, WebWalkerQA,xbench-DeepSearch, FRAMES and SimpleQA.
+
+![Alibaba-NLP-DeepResearch](https://github.com/Alibaba-NLP/DeepResearch/raw/main/assets/performance.png)
+
 ### nvidia/NVIDIA-Nemotron-Nano-9B-v2
 
 https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2
