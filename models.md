@@ -1311,6 +1311,22 @@ https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct
 
 ## Embedding Models
 
+### google/embeddinggemma-300m
+https://huggingface.co/google/embeddinggemma-300m
+
+EmbeddingGemma is a 300M parameter, state-of-the-art for its size, open embedding model from Google, built from Gemma 3 (with T5Gemma initialization) and the same research and technology used to create Gemini models. EmbeddingGemma produces vector representations of text, making it well-suited for search and retrieval tasks, including classification, clustering, and semantic similarity search. This model was trained with data in 100+ spoken languages.
+
+The small size and on-device focus makes it possible to deploy in environments with limited resources such as mobile phones, laptops, or desktops, democratizing access to state of the art AI models and helping foster innovation for everyone.
+
+**Inputs and outputs**
+
+- **Input:**
+    - Text string, such as a question, a prompt, or a document to be embedded
+    - Maximum input context length of 2048 tokens
+- **Output:**
+    - Numerical vector representations of input text data
+    - Output embedding dimension size of 768, with smaller options available (512, 256, or 128) via Matryoshka Representation Learning (MRL). MRL allows users to truncate the output embedding of size 768 to their desired size and then re-normalize for efficient and accurate representation.
+
 ### jinaai/jina-embeddings-v4
 
 https://huggingface.co/jinaai/jina-embeddings-v4
