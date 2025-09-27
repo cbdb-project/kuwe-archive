@@ -1,6 +1,6 @@
 # Models
 
-## Generative Large Language Models
+## Generative Large Language Open-source Models
 
 ### mistralai/Magistral-Small-2509
 
