@@ -2,6 +2,71 @@
 
 ## Generative Large Language Models
 
+### mistralai/Magistral-Small-2509
+
+https://huggingface.co/mistralai/Magistral-Small-2509
+
+Building upon Mistral Small 3.2 (2506), with added reasoning capabilities, undergoing SFT from Magistral Medium traces and RL on top, it's a small, efficient reasoning model with 24B parameters.
+
+Magistral Small can be deployed locally, fitting within a single RTX 4090 or a 32GB RAM MacBook once quantized.
+
+| **Model** | **AIME24 pass@1** | **AIME25 pass@1** | **GPQA Diamond** | **Livecodebench (v5)** |
+| --- | --- | --- | --- | --- |
+| **Magistral Medium 1.2** | **91.82%** | **83.48%** | **76.26%** | **75.00%** |
+| Magistral Medium 1.1 | 72.03% | 60.99% | 71.46% | 59.35% |
+| Magistral Medium 1.0 | 73.59% | 64.95% | 70.83% | 59.36% |
+| **Magistral Small 1.2** | **86.14%** | **77.34%** | **70.07%** | **70.88%** |
+| Magistral Small 1.1 | 70.52% | 62.03% | 65.78% | 59.17% |
+| Magistral Small 1.0 | 70.68% | 62.76% | 68.18% | 55.84% |
+
+### Qwen/Qwen3-VL-235B-A22B-Instruct
+
+https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct
+
+https://huggingface.co/spaces/Qwen/Qwen3-VL-Demo
+
+Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date.
+
+This generation delivers comprehensive upgrades across the board: superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent interaction capabilities.
+
+Available in Dense and MoE architectures that scale from edge to cloud, with Instruct and reasoning‑enhanced Thinking editions for flexible, on‑demand deployment.
+
+### **Key Enhancements:**
+
+- **Visual Agent**: Operates PC/mobile GUIs—recognizes elements, understands functions, invokes tools, completes tasks.
+- **Visual Coding Boost**: Generates Draw.io/HTML/CSS/JS from images/videos.
+- **Advanced Spatial Perception**: Judges object positions, viewpoints, and occlusions; provides stronger 2D grounding and enables 3D grounding for spatial reasoning and embodied AI.
+- **Long Context & Video Understanding**: Native 256K context, expandable to 1M; handles books and hours-long video with full recall and second-level indexing.
+- **Enhanced Multimodal Reasoning**: Excels in STEM/Math—causal analysis and logical, evidence-based answers.
+- **Upgraded Visual Recognition**: Broader, higher-quality pretraining is able to “recognize everything”—celebrities, anime, products, landmarks, flora/fauna, etc.
+- **Expanded OCR**: Supports 32 languages (up from 19); robust in low light, blur, and tilt; better with rare/ancient characters and jargon; improved long-document structure parsing.
+- **Text Understanding on par with pure LLMs**: Seamless text–vision fusion for lossless, unified comprehension.
+
+### deepseek-ai/DeepSeek-V3.1-Terminus
+
+https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus
+
+This update maintains the model's original capabilities while addressing issues reported by users, including:
+
+Language consistency: Reducing instances of mixed Chinese-English text and occasional abnormal characters;
+Agent capabilities: Further optimizing the performance of the Code Agent and Search Agent.
+Benchmark	DeepSeek-V3.1	DeepSeek-V3.1-Terminus
+
+### Qwen/Qwen3-Omni-30B-A3B-Instruct
+
+https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct
+
+Qwen3-Omni is the natively end-to-end multilingual omni-modal foundation models. It processes text, images, audio, and video, and delivers real-time streaming responses in both text and natural speech. We introduce several architectural upgrades to improve performance and efficiency. Key features:
+
+- **State-of-the-art across modalities**: Early text-first pretraining and mixed multimodal training provide native multimodal support. While achieving strong audio and audio-video results, unimodal text and image performance does not regress. Reaches SOTA on 22 of 36 audio/video benchmarks and open-source SOTA on 32 of 36; ASR, audio understanding, and voice conversation performance is comparable to Gemini 2.5 Pro.
+- **Multilingual**: Supports 119 text languages, 19 speech input languages, and 10 speech output languages.
+    - **Speech Input**: English, Chinese, Korean, Japanese, German, Russian, Italian, French, Spanish, Portuguese, Malay, Dutch, Indonesian, Turkish, Vietnamese, Cantonese, Arabic, Urdu.
+    - **Speech Output**: English, Chinese, French, German, Russian, Italian, Spanish, Portuguese, Japanese, Korean.
+- **Novel Architecture**: MoE-based Thinker–Talker design with AuT pretraining for strong general representations, plus a multi-codebook design that drives latency to a minimum.
+- **Real-time Audio/Video Interaction**: Low-latency streaming with natural turn-taking and immediate text or speech responses.
+- **Flexible Control**: Customize behavior via system prompts for fine-grained control and easy adaptation.
+- **Detailed Audio Captioner**: Qwen3-Omni-30B-A3B-Captioner is now open source: a general-purpose, highly detailed, low-hallucination audio captioning model that fills a critical gap in the open-source community.
+
 ### Qwen/Qwen3-Next-80B-A3B-Instruct
 
 https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct
