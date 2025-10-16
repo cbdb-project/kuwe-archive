@@ -2,6 +2,16 @@
 
 ## Generative Large Language Open-source Models
 
+### deepseek-ai/DeepSeek-V3.2-Exp
+
+https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
+
+We are excited to announce the official release of DeepSeek-V3.2-Exp, an experimental version of our model. As an intermediate step toward our next-generation architecture, V3.2-Exp builds upon V3.1-Terminus by introducing DeepSeek Sparse Attention—a sparse attention mechanism designed to explore and validate optimizations for training and inference efficiency in long-context scenarios.
+
+This experimental release represents our ongoing research into more efficient transformer architectures, particularly focusing on improving computational efficiency when processing extended text sequences.
+
+![](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp/resolve/main/assets/cost.png)
+
 ### mistralai/Magistral-Small-2509
 
 https://huggingface.co/mistralai/Magistral-Small-2509
