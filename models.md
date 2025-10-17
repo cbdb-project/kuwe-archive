@@ -21,6 +21,15 @@ https://huggingface.co/PaddlePaddle/PaddleOCR-VL
 PaddleOCR-VL is a SOTA and resource-efficient model tailored for document parsing. Its core component is PaddleOCR-VL-0.9B, a compact yet powerful vision-language model (VLM) that integrates a NaViT-style dynamic resolution visual encoder with the ERNIE-4.5-0.3B language model to enable accurate element recognition. This innovative model efficiently supports 109 languages and excels in recognizing complex elements (e.g., text, tables, formulas, and charts), while maintaining minimal resource consumption. Through comprehensive evaluations on widely used public benchmarks and in-house benchmarks, PaddleOCR-VL achieves SOTA performance in both page-level document parsing and element-level recognition. It significantly outperforms existing solutions, exhibits strong competitiveness against top-tier VLMs, and delivers fast inference speeds. These strengths make it highly suitable for practical deployment in real-world scenarios.
 
 ![](https://huggingface.co/PaddlePaddle/PaddleOCR-VL/resolve/main/imgs/allmetric.png)
+### deepseek-ai/DeepSeek-V3.2-Exp
+
+https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
+
+We are excited to announce the official release of DeepSeek-V3.2-Exp, an experimental version of our model. As an intermediate step toward our next-generation architecture, V3.2-Exp builds upon V3.1-Terminus by introducing DeepSeek Sparse Attention—a sparse attention mechanism designed to explore and validate optimizations for training and inference efficiency in long-context scenarios.
+
+This experimental release represents our ongoing research into more efficient transformer architectures, particularly focusing on improving computational efficiency when processing extended text sequences.
+
+![](https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp/resolve/main/assets/cost.png)
 
 ### mistralai/Magistral-Small-2509
 
