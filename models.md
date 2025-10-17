@@ -2,6 +2,26 @@
 
 ## Generative Large Language Open-source Models
 
+### Qwen/Qwen3-VL-8B-Instruct
+
+https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct
+
+Meet Qwen3-VL — the most powerful vision-language model in the Qwen series to date.
+
+This generation delivers comprehensive upgrades across the board: superior text understanding & generation, deeper visual perception & reasoning, extended context length, enhanced spatial and video dynamics comprehension, and stronger agent interaction capabilities.
+
+Available in Dense and MoE architectures that scale from edge to cloud, with Instruct and reasoning‑enhanced Thinking editions for flexible, on‑demand deployment.
+
+![](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3-VL/qwen3vl_4b_8b_vl_instruct.jpg)
+
+### PaddlePaddle/PaddleOCR-VL
+
+https://huggingface.co/PaddlePaddle/PaddleOCR-VL
+
+PaddleOCR-VL is a SOTA and resource-efficient model tailored for document parsing. Its core component is PaddleOCR-VL-0.9B, a compact yet powerful vision-language model (VLM) that integrates a NaViT-style dynamic resolution visual encoder with the ERNIE-4.5-0.3B language model to enable accurate element recognition. This innovative model efficiently supports 109 languages and excels in recognizing complex elements (e.g., text, tables, formulas, and charts), while maintaining minimal resource consumption. Through comprehensive evaluations on widely used public benchmarks and in-house benchmarks, PaddleOCR-VL achieves SOTA performance in both page-level document parsing and element-level recognition. It significantly outperforms existing solutions, exhibits strong competitiveness against top-tier VLMs, and delivers fast inference speeds. These strengths make it highly suitable for practical deployment in real-world scenarios.
+
+![](https://huggingface.co/PaddlePaddle/PaddleOCR-VL/resolve/main/imgs/allmetric.png)
+
 ### mistralai/Magistral-Small-2509
 
 https://huggingface.co/mistralai/Magistral-Small-2509
