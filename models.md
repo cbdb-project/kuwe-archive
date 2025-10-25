@@ -2,6 +2,16 @@
 
 ## Generative Large Language Open-source Models
 
+### deepseek-ai/DeepSeek-OCR
+
+https://huggingface.co/deepseek-ai/DeepSeek-OCR
+
+https://arxiv.org/abs/2510.18234
+
+We present DeepSeek-OCR as an initial investigation into the feasibility of compressing long contexts via optical 2D mapping. DeepSeek-OCR consists of two components: DeepEncoder and DeepSeek3B-MoE-A570M as the decoder. Specifically, DeepEncoder serves as the core engine, designed to maintain low activations under high-resolution input while achieving high compression ratios to ensure an optimal and manageable number of vision tokens. Experiments show that when the number of text tokens is within 10 times that of vision tokens (i.e., a compression ratio < 10x), the model can achieve decoding (OCR) precision of 97%. Even at a compression ratio of 20x, the OCR accuracy still remains at about 60%. This shows considerable promise for research areas such as historical long-context compression and memory forgetting mechanisms in LLMs. Beyond this, DeepSeek-OCR also demonstrates high practical value. On OmniDocBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision tokens, and outperforms MinerU2.0 (6000+ tokens per page on average) while utilizing fewer than 800 vision tokens. In production, DeepSeek-OCR can generate training data for LLMs/VLMs at a scale of 200k+ pages per day (a single A100-40G).
+
+![](https://huggingface.co/deepseek-ai/DeepSeek-OCR/resolve/main/assets/fig1.png)
+
 ### Qwen/Qwen3-VL-8B-Instruct
 
 https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct
@@ -20,7 +30,6 @@ https://huggingface.co/PaddlePaddle/PaddleOCR-VL
 
 PaddleOCR-VL is a SOTA and resource-efficient model tailored for document parsing. Its core component is PaddleOCR-VL-0.9B, a compact yet powerful vision-language model (VLM) that integrates a NaViT-style dynamic resolution visual encoder with the ERNIE-4.5-0.3B language model to enable accurate element recognition. This innovative model efficiently supports 109 languages and excels in recognizing complex elements (e.g., text, tables, formulas, and charts), while maintaining minimal resource consumption. Through comprehensive evaluations on widely used public benchmarks and in-house benchmarks, PaddleOCR-VL achieves SOTA performance in both page-level document parsing and element-level recognition. It significantly outperforms existing solutions, exhibits strong competitiveness against top-tier VLMs, and delivers fast inference speeds. These strengths make it highly suitable for practical deployment in real-world scenarios.
 
-![](https://huggingface.co/PaddlePaddle/PaddleOCR-VL/resolve/main/imgs/allmetric.png)
 ### deepseek-ai/DeepSeek-V3.2-Exp
 
 https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp
