@@ -2,6 +2,12 @@
 
 ## Generative Large Language Open-source Models
 
+### nvidia/NVIDIA-Nemotron-Parse-v1.1
+
+https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.1
+
+NVIDIA Nemotron Parse v1.1 is designed to understand document semantics and extract text and tables elements with spatial grounding. Given an image, NVIDIA Nemotron Parse v1.1 produces structured annotations, including formatted text, bounding-boxes and the corresponding semantic classes, ordered according to the document's reading flow. It overcomes the shortcomings of traditional OCR technologies that struggle with complex document layouts with structural variability, and helps transform unstructured documents into actionable and machine-usable representations. This has several downstream benefits such as increasing the availability of training-data for Large Language Models (LLMs), improving the accuracy of extractor, curator, retriever and AI agentic applications, and enhancing document understanding pipelines.
+
 ### deepseek-ai/DeepSeek-OCR
 
 https://huggingface.co/deepseek-ai/DeepSeek-OCR
