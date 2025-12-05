@@ -2,6 +2,16 @@
 
 ## Generative Large Language Open-source Models
 
+### mistralai/Ministral-3-14B-Instruct-2512
+
+https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512
+
+The largest model in the Ministral 3 family, Ministral 3 14B offers frontier capabilities and performance comparable to its larger Mistral Small 3.2 24B counterpart. A powerful and efficient language model with vision capabilities.
+
+This model is the instruct post-trained version in FP8, fine-tuned for instruction tasks, making it ideal for chat and instruction based use cases.
+
+The Ministral 3 family is designed for edge deployment, capable of running on a wide range of hardware. Ministral 3 14B can even be deployed locally, capable of fitting in 24GB of VRAM in FP8, and less if further quantized.
+
 ### deepseek-ai/DeepSeek-V3.2
 
 https://huggingface.co/deepseek-ai/DeepSeek-V3.2
