@@ -2,6 +2,19 @@
 
 ## Generative Large Language Open-source Models
 
+### deepseek-ai/DeepSeek-V3.2
+
+https://huggingface.co/deepseek-ai/DeepSeek-V3.2
+
+We introduce **DeepSeek-V3.2**, a model that harmonizes high computational efficiency with superior reasoning and agent performance. Our approach is built upon three key technical breakthroughs:
+
+1. **DeepSeek Sparse Attention (DSA):** We introduce DSA, an efficient attention mechanism that substantially reduces computational complexity while preserving model performance, specifically optimized for long-context scenarios.
+2. **Scalable Reinforcement Learning Framework:** By implementing a robust RL protocol and scaling post-training compute, *DeepSeek-V3.2* performs comparably to GPT-5. Notably, our high-compute variant, **DeepSeek-V3.2-Speciale**, **surpasses GPT-5** and exhibits reasoning proficiency on par with Gemini-3.0-Pro.
+    - *Achievement:* 🥇 **Gold-medal performance** in the 2025 International Mathematical Olympiad (IMO) and International Olympiad in Informatics (IOI).
+3. **Large-Scale Agentic Task Synthesis Pipeline:** To integrate **reasoning into tool-use** scenarios, we developed a novel synthesis pipeline that systematically generates training data at scale. This facilitates scalable agentic post-training, improving compliance and generalization in complex interactive environments.
+
+![](https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/benchmark.png)
+
 ### nvidia/NVIDIA-Nemotron-Parse-v1.1
 
 https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.1
