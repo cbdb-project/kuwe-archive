@@ -2,6 +2,14 @@
 
 ## Generative Large Language Open-source Models
 
+### google/translategemma-4b-it
+
+https://huggingface.co/google/translategemma-4b-it
+
+TranslateGemma is a family of lightweight, state-of-the-art open translation models from Google, based on the Gemma 3 family of models.
+
+TranslateGemma models are designed to handle translation tasks across 55 languages. Their relatively small size makes it possible to deploy them in environments with limited resources such as laptops, desktops or your own cloud infrastructure, democratizing access to state of the art translation models and helping foster innovation for everyone.
+
 ### nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
 
 https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16
@@ -1454,6 +1462,11 @@ The model outperforms Llama-3-70B-Instruct substantially, and is on par with GPT
 https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct
 
 ## Embedding Models
+
+### Qwen/Qwen3-VL-Embedding-2B
+https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B
+
+The Qwen3-VL-Embedding and Qwen3-VL-Reranker model series are the latest additions to the Qwen family, built upon the recently open-sourced and powerful Qwen3-VL foundation model. Specifically designed for multimodal information retrieval and cross-modal understanding, this suite accepts diverse inputs including text, images, screenshots, and videos, as well as inputs containing a mixture of these modalities.
 
 ### google/embeddinggemma-300m
 https://huggingface.co/google/embeddinggemma-300m
